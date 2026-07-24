@@ -1,0 +1,59 @@
+.main_grid{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.video_container {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.video_container .tumbnail-container {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 0px 5px;
+    width: 100%;
+}
+.video_container .tumbnail-container img {
+    width: 100%;
+}
+.video_container .video-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 50px; */
+}
+.video_container .video-details .profile-container {
+  margin-left: 10px;
+  width: 50px;
+  margin-right: 10px;
+}
+.video_container .video-details .profile-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.video_container .video-details .video-stats {
+  flex: 1;
+}
+
+.video_container .video-details .video-stats p {
+  text-align: left;
+}
+.video_container .video-details .video-stats .video-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.video_container .video-details .video-stats .channel-name {
+  margin-bottom: 10px;
+}
+.video_container .video-details .video-stats .views {
+  margin-bottom: 10px;
+}

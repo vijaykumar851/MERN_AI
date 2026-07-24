@@ -1,0 +1,87 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    /* box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);  */
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    
+}
+.nav-container .icon {
+    width: 25px;
+    cursor: pointer;
+}
+.nav-container .nav-left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.nav-container .menu {
+    margin-right: 25px;
+}
+
+.nav-container .nav-center {
+    display: flex;
+    align-items: center;
+}
+.nav-container .nav-center .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 270px;
+    margin-right: 20px;
+}
+.nav-container .nav-center .search-container input {
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: transparent;
+}
+.nav-container .nav-center .search-container .mic {
+    margin-left: 20px;
+}
+
+.nav-container .nav-right {
+    display: flex;
+    justify-content: space-around;
+    min-width: 200px;
+    align-items: center;
+}
+.nav-container .nav-right .profile {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.below-header-buttons {
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+    position: fixed;
+    left: 70px;
+    right: 0;
+    height: 75px;
+    background-color: white;
+    top: 70px;
+    padding-top: 0px;
+}
+.below-header-buttons a {
+    color: black;
+    background-color: rgb(209, 207, 207);
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.below-header-buttons a:hover {
+    background-color: black;
+    color: white;
+}
